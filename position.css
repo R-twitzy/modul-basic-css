@@ -1,0 +1,25 @@
+<style media="screen">
+      .container{
+        width:50%;
+        height: 200px;
+        overflow: auto;
+        margin-left: :0 auto;
+      }
+      .static{ position: static; border: 2px solid green; }
+      .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+        bottom: 0; /* jarak dari posisi paling bawah sebesar 0px */
+      }
+      .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+      .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+      .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top:0;
+        left:20px;
+        background: darkblue;
+        color:white;
+      }
+    </style>

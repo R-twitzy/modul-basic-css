@@ -1,0 +1,12 @@
+<style media="screen">
+    .news{
+      margin: 0 auto;
+      width: 70%;
+      height:300px;
+      column-count:2;
+      column-gap: 30px;
+      column-rule-style: solid;
+      column-rule-width: 2px;
+      column-rule-color: #000;
+    }
+  </style>

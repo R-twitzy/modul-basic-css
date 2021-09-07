@@ -1,0 +1,38 @@
+<style media="screen">
+    .menu{ margin:0; width:100%; position:sticky; }
+    nav{ width: 20%; height: 400px; background:#e2e0e0;}
+    ul.horizontal{
+      list-style-type:none;
+      padding: 0;
+      margin: 0;
+      overflow:hidden;
+      background-color: #d10202;
+    }
+    ul.horizontal li { float: left; }
+    ul.horizontal li a{
+      display: block;
+      text-decoration: none;
+      color:white;
+      padding: 15px;
+      text-align:center;
+    }
+    ul.horizontal li a:hover{ background-color: #6b0101; }
+    ul.vertical{
+      list-style-type:none;
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      background-color:#e2e0e0;
+    }
+    ul.vertical li a{
+      display:block;
+      text-decoration:none;
+      color:black;
+      padding:15px;
+      text-align:left;
+    }
+    ul.vertical li a:hover{
+      background-color: #777777;
+      color:white;
+    }
+  </style>

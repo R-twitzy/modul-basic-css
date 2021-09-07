@@ -1,0 +1,15 @@
+<style media="screen">
+    div{
+      width: 80%;
+      margin: 0 auto;
+      height: 100px;
+    }
+    .bgcolor{ background-color: #ff4533; }
+    .bgimage{ background-image: url("bata.jpg"); }
+    .bgposition{
+      height: 150px;
+      background: url("logo_hitam.png") #820004 no-repeat left;
+    }
+    .gradient1{ background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 128), rgb(49, 0, 128));}
+    .gradient2{ background:linear-gradient(rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));}
+  </style>
